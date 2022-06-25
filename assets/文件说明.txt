@@ -1,0 +1,5 @@
+css：项目中的样式表
+fonts：字体图标
+images：图片
+js：js代码
+lib：插件
