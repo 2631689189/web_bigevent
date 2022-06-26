@@ -1,0 +1,79 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  background: url(../images/login_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+html .loginAndRegBox,
+body .loginAndRegBox {
+  width: 400px;
+  height: 310px;
+  background-color: aliceblue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+html .loginAndRegBox .title-box,
+body .loginAndRegBox .title-box {
+  height: 60px;
+  background: url(../images/login_title.png) no-repeat center;
+}
+html .loginAndRegBox .reg-box,
+body .loginAndRegBox .reg-box {
+  display: none;
+  padding: 0 30px;
+}
+html .loginAndRegBox .reg-box .layui-form-item,
+body .loginAndRegBox .reg-box .layui-form-item {
+  position: relative;
+}
+html .loginAndRegBox .reg-box .layui-form-item .layui-icon,
+body .loginAndRegBox .reg-box .layui-form-item .layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+html .loginAndRegBox .reg-box .layui-form-item .layui-input,
+body .loginAndRegBox .reg-box .layui-form-item .layui-input {
+  padding-left: 30px;
+}
+html .loginAndRegBox .reg-box .links,
+body .loginAndRegBox .reg-box .links {
+  display: flex;
+  justify-content: flex-end;
+}
+html .loginAndRegBox .reg-box .links a,
+body .loginAndRegBox .reg-box .links a {
+  font-size: 12px;
+}
+html .loginAndRegBox .login-box .layui-form,
+body .loginAndRegBox .login-box .layui-form {
+  padding: 0 30px;
+}
+html .loginAndRegBox .login-box .layui-form .links,
+body .loginAndRegBox .login-box .layui-form .links {
+  display: flex;
+  justify-content: flex-end;
+}
+html .loginAndRegBox .login-box .layui-form .links a,
+body .loginAndRegBox .login-box .layui-form .links a {
+  font-size: 12px;
+}
+html .loginAndRegBox .login-box .layui-form .layui-form-item,
+body .loginAndRegBox .login-box .layui-form .layui-form-item {
+  position: relative;
+}
+html .loginAndRegBox .login-box .layui-form .layui-form-item .layui-icon,
+body .loginAndRegBox .login-box .layui-form .layui-form-item .layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+html .loginAndRegBox .login-box .layui-form .layui-form-item .layui-input,
+body .loginAndRegBox .login-box .layui-form .layui-form-item .layui-input {
+  padding-left: 30px;
+}

@@ -1,0 +1,86 @@
+// out: ../css/login.css
+
+html,body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    background:url(../images/login_bg.jpg) no-repeat center; //no-repeat：设置不重复
+    background-size: cover;
+    // background-size:cover;图片保持比例放大或缩小使X轴与Y轴都铺满整个容器,但图片超出容器部分会被裁剪掉,图片不变形。
+    // background-size:contain;图片保持比例放大或缩小填充容器,若不能完整填充容器,X轴或Y轴都有可能出现白边,图片不变形。
+
+    .loginAndRegBox{
+        width: 400px;
+        height: 310px;
+        background-color: aliceblue;
+        // 绝对定位
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        // 定位后要减去本身的移动量
+        transform: translate(-50%, -50%);
+
+        .title-box{
+            height: 60px;
+            background: url(../images/login_title.png) no-repeat center;
+        }
+
+        .reg-box{
+            display: none;
+            padding: 0 30px;
+              // 定位，子爵父相
+            .layui-form-item{
+            position: relative;  //父级
+
+                .layui-icon{
+                    position: absolute;  //子级
+                    left: 10px;
+                    top: 10px;
+                }
+                .layui-input{
+                    padding-left:30px;
+                }
+            }
+            
+            .links{
+                display: flex;
+                justify-content: flex-end;
+                a{
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .login-box{
+            .layui-form{
+                padding: 0 30px;
+
+                .links{
+                    display: flex;
+                    justify-content: flex-end;
+                    a{
+                        font-size: 12px;
+                    }
+                }
+
+                // 定位，子爵父相
+                .layui-form-item{
+                    position: relative;  //父级
+
+                    .layui-icon{
+                        position: absolute;  //子级
+                        left: 10px;
+                        top: 10px;
+                    }
+
+                    .layui-input{
+                        padding-left:30px;
+                    }
+                }
+            }
+        }
+
+        
+    }
+}
